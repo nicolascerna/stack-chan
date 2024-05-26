@@ -1,44 +1,41 @@
-# AI_StackChan2
-AIｽﾀｯｸﾁｬﾝ2です。
+# Stack Chan
+This is baed on [AI StackChan2](https://github.com/robo8080/AI_StackChan2)
 <br><br>
 
-![画像1](images/image1.png)<br><br>
+![Image1](images/image1.png)<br><br>
 
-AIｽﾀｯｸﾁｬﾝ2の特徴<br>
+**Stack Chan Features**
 
-* 音声合成にWeb版 VOICEVOXを使います。
-* 音声認識に"Google Cloud STT"か"OpenAI Whisper"のどちらかを選択できます。
+* Uses the web-based VOICEVOX for speech synthesis.
+* You can choose between "Google Cloud STT" or "OpenAI Whisper" for speech recognition.
 <br>
 
-Google Cloud STTは、”MhageGH”さんの [esp32_CloudSpeech](https://github.com/MhageGH/esp32_CloudSpeech/ "Title") を参考にさせて頂きました。ありがとうございました。<br>
-"OpenAI Whisper"が使えるようにするにあたって、多大なご助言を頂いた”イナバ”さん、”kobatan”さんに感謝致します。<br>
-ウェイクワードには、”MechaUma”さんの[SimpleVox](https://github.com/MechaUma/SimpleVox/ "Title")ライブラリを使わせていただきました。
+Google Cloud STT is based on "MhageGH"'s [esp32_CloudSpeech](https://github.com/MhageGH/esp32_CloudSpeech/ "Title").<br>
+For the wake word, we used "MechaUma"さん's [SimpleVox](https://github.com/MechaUma/SimpleVox/ "Title") library.
 
 ---
 
+### Items and Instructions Needed to Create the M5GoBottom Version of StackChan ###
+Please refer to this.<br>
+* [StackChan M5GoBottom Version Assembly Kit](https://raspberrypi.mongonta.com/about-products-stackchan-m5gobottom-version/ "Title")<br>
 
-### M5GoBottom版ｽﾀｯｸﾁｬﾝ本体を作るのに必要な物、及び作り方 ###
-こちらを参照してください。<br>
-* [ｽﾀｯｸﾁｬﾝ M5GoBottom版組み立てキット](https://raspberrypi.mongonta.com/about-products-stackchan-m5gobottom-version/ "Title")<br>
-
-### プログラムをビルドするのに必要な物 ###
+### Items Needed to Build the Program ###
 * [M5Stack Core2](http://www.m5stack.com/ "Title")<br>
 * VSCode<br>
 * PlatformIO<br>
 
-使用しているライブラリ等は"platformio.ini"を参照してください。<br>
+Please refer to the "platformio.ini" for the libraries used.<br>
 
-~~【5/31の時点ではM5Unifiedの不具合の為、CoreS3では動きません。】~~<br>
+~~As of 5/31, it does not work with CoreS3 due to issues with M5Unified.~~<br>
 
 ---
 
-### サーボモーターを使用するGPIO番号の設定 ###
-* main.cppの46行目付近、サーボモーターを使用するGPIO番号を設定してください。
+### Setting GPIO Numbers for Servo Motors ###
+* Around line 46 of the main.cpp file, set the GPIO numbers used for the servo motors.
 
+### Usage Instructions ###
 
-### 使い方 ###
-
-こちらを参照してください。<br>
+Please refer to this.<br>
 
 * [AI_StackChan2_README](https://github.com/robo8080/AI_StackChan2_README/ "Title")<br>
 <br>
