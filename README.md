@@ -1,6 +1,5 @@
 # Stack Chan
-This is baed on [AI StackChan2](https://github.com/robo8080/AI_StackChan2)
-<br><br>
+This is based on [AI StackChan2](https://github.com/robo8080/AI_StackChan2)
 
 ![Image1](images/image1.png)<br><br>
 
@@ -11,7 +10,7 @@ This is baed on [AI StackChan2](https://github.com/robo8080/AI_StackChan2)
 <br>
 
 Google Cloud STT is based on "MhageGH"'s [esp32_CloudSpeech](https://github.com/MhageGH/esp32_CloudSpeech/ "Title").<br>
-For the wake word, we used "MechaUma"さん's [SimpleVox](https://github.com/MechaUma/SimpleVox/ "Title") library.
+For the wake word, we used "MechaUma"'s [SimpleVox](https://github.com/MechaUma/SimpleVox/ "Title") library.
 
 ---
 
@@ -26,8 +25,6 @@ Please refer to this.<br>
 
 Please refer to the "platformio.ini" for the libraries used.<br>
 
-~~As of 5/31, it does not work with CoreS3 due to issues with M5Unified.~~<br>
-
 ---
 
 ### Setting GPIO Numbers for Servo Motors ###
@@ -37,7 +34,4 @@ Please refer to the "platformio.ini" for the libraries used.<br>
 
 Please refer to this.<br>
 
-* [AI_StackChan2_README](https://github.com/robo8080/AI_StackChan2_README/ "Title")<br>
-<br>
-<br>
-<br>
+* [AI_StackChan2_README](https://github.com/robo8080/AI_StackChan2_README/ "Title")
